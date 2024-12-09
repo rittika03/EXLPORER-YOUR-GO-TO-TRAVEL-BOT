@@ -8,11 +8,11 @@ EXPLORER provides the following features:
 <br>1. Give Personalized Destination Recommendations based on user inputs.
 <br>2. Provides detailed information about destinations, including : Top attractions and activities.
 ## Technologies Used
-<br>&#8226;<b>Python</b> to build the chatbot
-<br>&#8226;<b>NLTK</b> library used to build the Chatbot
-<br>&#8226;<b>Scikit-learn</b> NLP library package to train the Chatbot 
-<br>&#8226;<b>Streamlit</b> to create and run the application of Chatbot
-<br>&#8226;<b>JSON</b> for queries data
+<br>&#8226; <b>Python</b> to build the chatbot
+<br>&#8226; <b>NLTK</b> library used to build the Chatbot
+<br>&#8226; <b>Scikit-learn</b> NLP library package to train the Chatbot 
+<br>&#8226; <b>Streamlit</b> to create and run the application of Chatbot
+<br>&#8226; <b>JSON</b> for queries data
 ## How To RUN
 <br>To run the chatbot application, execute the following command:
 <br> streamlit run ./Chatbot.py
@@ -22,6 +22,6 @@ EXPLORER provides the following features:
 ## Conversation History
 <br>The chatbot saves the conversation history in a CSV file (chat_log.csv). You can view past interactions by selecting the "Conversation History" option in the sidebar.
 ## Acknowledgements
-<br>&#8226;<b>NLTK</b> for natural language processing.
-<br>&#8226;<b>Scikit-learn</b> for machine learning algorithms.
-<br>&#8226;<b>Streamlit</b> for building the web interface.
+<br>&#8226; <b>NLTK</b> for natural language processing.
+<br>&#8226; <b>Scikit-learn</b> for machine learning algorithms.
+<br>&#8226; <b>Streamlit</b> for building the web interface.
