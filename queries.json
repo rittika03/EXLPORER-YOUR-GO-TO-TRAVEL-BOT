@@ -1,0 +1,623 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "How are you",
+            "What's up"
+        ],
+        "responses": [
+            "Hi there",
+            "Hello",
+            "Hey",
+            "I'm fine, thank you",
+            "Nothing much"
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Take care"
+        ],
+        "responses": [
+            "Goodbye",
+            "See you later",
+            "Take care"
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+            "Thank you",
+            "Thanks",
+            "Thanks a lot",
+            "I appreciate it"
+        ],
+        "responses": [
+            "You're welcome",
+            "No problem",
+            "Glad I could help"
+        ]
+    },
+    {
+        "tag": "about",
+        "patterns": [
+            "What can you do",
+            "Who are you",
+            "What are you",
+            "What is your purpose"
+        ],
+        "responses": [
+            "I am a chatbot",
+            "My purpose is to assist you",
+            "I can answer questions and provide assistance"
+        ]
+    },
+    {
+        "tag": "help",
+        "patterns": [
+            "Help",
+            "I need help",
+            "Can you help me",
+            "What should I do"
+        ],
+        "responses": [
+            "Sure, what do you need help with?",
+            "I'm here to help. What's the problem?",
+            "How can I assist you?"
+        ]
+    },
+    {
+        "tag": "age",
+        "patterns": [
+            "How old are you",
+            "What's your age"
+        ],
+        "responses": [
+            "I don't have an age. I'm a chatbot.",
+            "I was just born in the digital world.",
+            "Age is just a number for me."
+        ]
+    },
+    {
+        "tag": "weather",
+        "patterns": [
+            "What's the weather like",
+            "How's the weather today"
+        ],
+        "responses": [
+            "I'm sorry, I cannot provide real-time weather information.",
+            "You can check the weather on a weather app or website."
+        ]
+    },
+    {
+        "tag": "name",
+        "patterns": [
+            "What's your name",
+            "Do you have a name",
+            "What should I call you"
+        ],
+        "responses": [
+            "You can call me Chatbot.",
+            "My name is Chatbot."
+        ]
+    },
+    {
+        "tag": "favorite_color",
+        "patterns": [
+            "What's your favorite color",
+            "Do you like any color"
+        ],
+        "responses": [
+            "I'm a chatbot, so I don't have a favorite color.",
+            "As an AI, I don't have preferences like humans do."
+        ]
+    },
+    {
+        "tag": "hobby",
+        "patterns": [
+            "What do you do for fun",
+            "Do you have any hobbies"
+        ],
+        "responses": [
+            "I don't have hobbies as I'm here to assist you.",
+            "I'm always ready to chat with you, so that's my favorite thing to do!"
+        ]
+    },
+    {
+        "tag": "time",
+        "patterns": [
+            "What's the time",
+            "Can you tell me the time"
+        ],
+        "responses": [
+            "I'm sorry, but I don't have access to real-time information like the current time.",
+            "You can check the time on your device or use a clock."
+        ]
+    },
+    {
+        "tag": "food",
+        "patterns": [
+            "What's your favorite food",
+            "Do you like to eat",
+            "Tell me about food"
+        ],
+        "responses": [
+            "As a chatbot, I don't eat, but I'm here to help with any questions you have about food!",
+            "I may not have taste buds, but I can assist you in finding recipes or restaurants!"
+        ]
+    },
+    {
+        "tag": "North India",
+            "patterns": [
+                "Suggest some famous places to visit in North India",
+                "Recommend most famous places to visit in North India",
+                "Famous places to visit in North India",
+                "Most Famous tourists attractions of North India"
+            ],
+            "responses": [
+                "1)Jammu and Kashmir: Dal Lake, Srinagar\n2)Himachal Pradesh: Shimla and Kufri\n3)Punjab: Golden Temple, Amritsar\n4)Uttarakhand: Valley of Flowers National Park\n5)Haryana: Sultanpur National Park\n6)Delhi (Union Territory): India Gate and Red Fort"
+            ]
+    },
+    {
+        "tag": "Central India",
+            "patterns": [
+                    "Suggest some famous places to visit in Central India",
+                    "Recommend most famous places to visit in Central India",
+                    "Famous places to visit in Central India",
+                    "Most Famous tourists attractions of Central India"
+            ],
+            "responses": [
+                "1)Rajasthan: Amer Fort\n2)Madhya Pradesh: Khajuraho Temples\n3)Chhattisgarh: Chitrakote Falls"
+            ]
+    },
+    {
+        "tag": "Western India",
+            "patterns": [
+                    "Suggest some famous places to visit in Western India",
+                    "Recommend most famous places to visit in Western India",
+                    "Famous places to visit in Western India",
+                    "Most Famous tourists attractions of Western India"
+            ],
+            "responses": [
+                "1)Gujarat: Gir National Park\n2)Maharashtra: Ajanta and Ellora Caves\n3)Goa: Baga Beach"
+            ]
+    },
+    {
+        "tag": "Eastern India",
+            "patterns": [
+                    "Suggest some famous places to visit in Eastern India",
+                    "Recommend most famous places to visit in Eastern India",
+                    "Famous places to visit in Eastern India",
+                    "Most Famous tourists attractions of Eastern India"
+            ],
+            "responses": [
+                "1)West Bengal: Victoria Memorial, Kolkata\n2)Odisha: Jagannath Temple, Puri\n3)Bihar: Mahabodhi Temple, Bodh Gaya\n4)Jharkhand: Betla National Park"
+            ]
+    },
+    {
+        "tag": "South India",
+            "patterns": [
+                    "Suggest some famous places to visit in South India",
+                    "Recommend most famous places to visit in South India",
+                    "Famous places to visit in South India",
+                    "Most Famous tourists attractions of South India"
+            ],
+            "responses": [
+                "1)Tamil Nadu: Meenakshi Temple, Madurai\n2)Kerala: Alleppey Backwaters\n3)Karnataka: Hampi\n4)Andhra Pradesh: Tirupati Balaji Temple\n5)Telangana: Charminar, Hyderabad"
+            ]
+    },
+    {
+        "tag": "Northeastern India",
+            "patterns": [
+                    "Suggest some famous places to visit in Northeastern India",
+                    "Recommend most famous places to visit in Northeastern India",
+                    "Famous places to visit in Northeastern India",
+                    "Most Famous tourists attractions of Northeastern India"
+            ],
+            "responses": [
+                "1)Assam: Kaziranga National Park\n2)Arunachal Pradesh: Tawang Monastery\n3)Nagaland: Kohima War Cemetery\n4)Manipur: Loktak Lake\n5)Meghalaya: Living Root Bridges, Cherrapunji\n6)Tripura: Ujjayanta Palace\n7)Mizoram: Vantawng Falls\n8)Sikkim: Tsomgo Lake"
+            ]
+    },
+    {
+        "tag": "Union Territories",
+            "patterns": [
+                    "Suggest some famous places to visit in Union Territories",
+                    "Recommend most famous places to visit in Union Territories",
+                    "Famous places to visit in Union Territories",
+                    "Most Famous tourists attractions of Union Territories"
+            ],
+            "responses": [
+                "1)Andaman and Nicobar Islands: Radhanagar Beach, Havelock Island\n2)Chandigarh: Rock Garden\n3)Puducherry: Promenade Beach\n4)Ladakh: Pangong Lake\n5)Dadra and Nagar Haveli and Daman and Diu: Jampore Beach"
+            ]
+    },
+    {
+        "tag": "Andaman_and_Nicobar_Islands",
+        "patterns": [
+            "Suggest some famous places to visit in Andaman and Nicobar Islands",
+            "Recommend most famous places to visit in Andaman and Nicobar Islands",
+            "Famous places to visit in Andaman and Nicobar Islands",
+            "Most Famous tourist attractions of Andaman and Nicobar Islands"
+        ],
+        "responses": [
+            "Andaman and Nicobar Islands, known for their pristine beaches and unique biodiversity, offer several must-visit attractions. Here are the most famous places to visit in Andaman and Nicobar Islands:\n\n1) Radhanagar Beach, Havelock Island: Rated as one of the best beaches in Asia, known for its crystal-clear waters and serenity.\n2) Cellular Jail, Port Blair: A historic site that tells the tale of India's freedom struggle.\n3) Ross Island: A historic island showcasing remnants of British colonial rule.\n4) Baratang Island: Famous for limestone caves and mangrove creeks.\n5) Mahatma Gandhi Marine National Park: A marine sanctuary with coral reefs and diverse marine life.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    },
+    {
+    "tag": "Andhra Pradesh",
+        "patterns": [
+            "Suggest some famous places to visit in Andhra Pradesh",
+            "Recommend most famous places to visit in Andhra Pradesh",
+            "Famous places to visit in Andhra Pradesh",
+            "Most Famous tourists attraction of Andhra Pradesh"
+        ],
+        "responses": [
+            "Andhra Pradesh, known for its rich cultural heritage, ancient temples, scenic landscapes, and vibrant traditions, offers a variety of attractions. Here are the most famous places to visit in Andhra Pradesh:\n\n1)Tirupati\nHighlight: Sri Venkateswara Temple (Tirumala), Known as one of the most visited pilgrimage sites in the world, this temple dedicated to Lord Venkateswara is a spiritual and architectural marvel.\n2)Visakhapatnam (Vizag)\nHighlight: Araku Valley and Borra Caves, Araku Valley is a serene hill station with lush coffee plantations, while Borra Caves are known for their stalactite and stalagmite formations.\n3)Amaravati\nHighlight: Amaravati Stupa, This ancient Buddhist site showcases rich history and architectural brilliance from the Satavahana era.\n4)Vijayawada\nHighlight: Kanaka Durga Temple, Perched on Indrakeeladri Hill, this temple is a major spiritual center dedicated to Goddess Durga.\n5)Lepakshi\nHighlight: Veerabhadra Temple, Famous for its exquisite Vijayanagara-style architecture and the massive monolithic Nandi (bull statue).\n6)Srikalahasti\nHighlight: Srikalahasteeswara Temple, A renowned Shiva temple and one of the Panchabhoota Sthalams, representing the element of air.\n7)Ahobilam\nHighlight: Narasimha Swamy Temples, A sacred site with nine temples dedicated to Lord Narasimha, nestled amidst lush forests and hills.\n\nContinue Looking For More Places. HAPPY HOPING!!"
+        ]
+    },
+    {
+        "tag": "Arunachal Pradesh",
+        "patterns": [
+            "Suggest some famous places to visit in Arunachal Pradesh",
+            "Recommend most famous places to visit in Arunachal Pradesh",
+            "Famous places to visit in Arunachal Pradesh",
+            "Most Famous tourists attraction of Arunachal Pradesh"
+        ],
+        "responses": [
+            "Arunachal Pradesh, the land of the rising sun, is known for its pristine landscapes, vibrant culture, and serene monasteries. Here are the most famous places to visit in Arunachal Pradesh:\n\n1) Tawang\nHighlight: Tawang Monastery, The largest monastery in India, known for its spiritual significance and stunning views.\n2) Ziro Valley\nHighlight: Scenic Beauty and Apatani Tribe, Famous for its lush paddy fields and unique tribal culture.\n3) Bomdila\nHighlight: Bomdila Monastery, A serene spot offering panoramic views of the Himalayas.\n4) Itanagar\nHighlight: Ita Fort, A historical site built in the 14th century, showcasing ancient architecture.\n5) Namdapha National Park\nHighlight: Biodiversity, Known for its exotic flora and fauna, including tigers, leopards, and red pandas.\n6) Pasighat\nHighlight: Siang River and Rafting, Offers adventure activities and scenic beauty.\n7) Sela Pass\nHighlight: Scenic Mountain Pass, A breathtaking pass with crystal-clear Sela Lake surrounded by snow-clad mountains.\n8) Dirang\nHighlight: Hot Water Springs, Known for its natural hot springs and pleasant climate.\n\nContinue Looking For More Places. HAPPY HOPING!!"
+        ]
+    },
+    {
+        "tag": "Assam",
+        "patterns": [
+            "Suggest some famous places to visit in Assam",
+            "Recommend most famous places to visit in Assam",
+            "Famous places to visit in Assam",
+            "Most Famous tourists attraction of Assam"
+        ],
+        "responses": [
+            "Assam, the gateway to Northeast India, is renowned for its tea gardens, wildlife sanctuaries, and spiritual sites. Here are the most famous places to visit in Assam:\n\n1) Kaziranga National Park\nHighlight: One-horned Rhinoceros, A UNESCO World Heritage Site known for its rich biodiversity.\n2) Guwahati\nHighlight: Kamakhya Temple, A revered Shakti Peetha and an important pilgrimage site.\n3) Majuli\nHighlight: Largest River Island, Known for its vibrant culture and Satras (monasteries).\n4) Sivasagar\nHighlight: Historical Monuments, Famous for its Ahom-era palaces and temples.\n5) Manas National Park\nHighlight: Wildlife and Adventure, A UNESCO World Heritage Site offering unique flora and fauna.\n6) Jorhat\nHighlight: Tea Gardens, The cultural capital of Assam and hub of tea tourism.\n7) Haflong\nHighlight: Hill Station, Known for its scenic beauty and serene environment.\n8) Dibru-Saikhowa National Park\nHighlight: Rare Wildlife, Famous for feral horses and migratory birds.\n\nContinue Looking For More Places. HAPPY HOPING!!"
+        ]
+    },
+    {
+        "tag": "Bihar",
+        "patterns": [
+            "Suggest some famous places to visit in Bihar",
+            "Recommend most famous places to visit in Bihar",
+            "Famous places to visit in Bihar",
+            "Most Famous tourists attraction of Bihar"
+        ],
+        "responses": [
+            "Bihar, a state rich in ancient history and spirituality, offers diverse attractions. Here are the most famous places to visit in Bihar:\n\n1) Bodh Gaya\nHighlight: Mahabodhi Temple, A UNESCO World Heritage site and the place where Lord Buddha attained enlightenment.\n2) Nalanda\nHighlight: Nalanda University, An ancient center of learning and a UNESCO World Heritage site.\n3) Rajgir\nHighlight: Vishwa Shanti Stupa and Hot Springs, A historic city with Buddhist and Jain heritage.\n4) Patna\nHighlight: Golghar and Patna Sahib Gurudwara, A city rich in cultural and historical landmarks.\n5) Vaishali\nHighlight: Ashokan Pillar and Buddhist Relics, A significant site in Buddhist history.\n\n Continue Looking For More Places. HAPPY HOPING!!"
+        ]
+    },
+    {
+        "tag": "Chandigarh",
+        "patterns": [
+            "Suggest some famous places to visit in Chandigarh",
+            "Recommend most famous places to visit in Chandigarh",
+            "Famous places to visit in Chandigarh",
+            "Most Famous tourists attraction of Chandigarh"
+        ],
+        "responses": [
+            "Chandigarh, a union territory and the shared capital of Punjab and Haryana, is renowned for its unique architecture, urban planning, and scenic spots. Here are the most famous places to visit in Chandigarh:\n\n1) Rock Garden\nHighlight: Artistic Sculptures, Created by Nek Chand, this unique garden features sculptures made from industrial and urban waste, spread over 40 acres.\n2)Sukhna Lake\nHighlight: Serene Artificial Lake, A popular spot for boating, walking, and picnics, this lake is surrounded by picturesque views of the Shivalik Hills.\n3)Rose Garden (Zakir Hussain Rose Garden)\nHighlight: Largest Rose Garden in Asia, Home to over 1,600 species of roses and several medicinal plants, it’s a visual treat, especially during the annual Rose Festival.\n4)Capitol Complex\nHighlight: UNESCO World Heritage Site, Designed by Le Corbusier, this area houses the High Court, Secretariat, and Legislative Assembly, showcasing modernist architecture.\n5)Leisure Valley\nHighlight: Chain of Themed Gardens, A series of interconnected gardens stretching over 8 km, ideal for walking, jogging, and relaxation.\n\nContinue Looking For More Places. HAPPY HOPING!!"
+        ]
+    },
+    {
+        "tag": "Chhattisgarh",
+        "patterns": [
+            "Suggest some famous places to visit in Chhattisgarh",
+            "Recommend most famous places to visit in Chhattisgarh",
+            "Famous places to visit in Chhattisgarh",
+            "Most Famous tourists attraction of Chhattisgarh"
+        ],
+        "responses": [
+            "Chhattisgarh, known for its ancient temples, waterfalls, and tribal culture, offers unique attractions. Here are the most famous places to visit in Chhattisgarh:\n\n1) Jagdalpur\nHighlight: Chitrakote Falls, Often referred to as the 'Niagara of India'.\n2) Raipur\nHighlight: Mahant Ghasidas Memorial Museum, A cultural hub showcasing the history and traditions of the state.\n3) Bastar\nHighlight: Bastar Dussehra and Tribal Culture, Experience the vibrant tribal festivals and traditions.\n4) Sirpur\nHighlight: Laxman Temple, An ancient Hindu temple with intricate carvings.\n5) Kanger Valley National Park\nHighlight: Rich Biodiversity and Caves, Known for stalactite and stalagmite formations in Kutumsar and Kailash caves.\n\n Continue Looking For More Places. HAPPY HOPING!!"
+        ]
+    },
+    {
+        "tag": "Delhi",
+        "patterns": [
+            "Suggest some famous places to visit in Delhi",
+            "Recommend most famous places to visit in Delhi",
+            "Famous places to visit in Delhi",
+            "Most Famous tourist attractions of Delhi"
+        ],
+        "responses": [
+            "Delhi, the capital of India, is a city steeped in history and culture. Here are the most famous places to visit in Delhi:\n\n1) India Gate: A historic war memorial and iconic landmark.\n2) Qutub Minar: A UNESCO World Heritage site and architectural marvel.\n3) Red Fort: A majestic Mughal-era fort with rich history.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    },
+    {
+        "tag": "Goa",
+        "patterns": [
+            "Suggest some famous places to visit in Goa",
+            "Recommend most famous places to visit in Goa",
+            "Famous places to visit in Goa",
+            "Most Famous tourists attraction of Goa"
+        ],
+        "responses": [
+            "Goa, known for its beaches, nightlife, and Portuguese heritage, is a favorite destination. Here are the most famous places to visit in Goa:\n\n1) Baga Beach\nHighlight: Water Sports and Nightlife, Popular for its lively atmosphere and adventure sports.\n2) Panjim\nHighlight: Fontainhas and Basilica of Bom Jesus, Explore Portuguese-inspired architecture and UNESCO-listed churches.\n3) Calangute\nHighlight: Queen of Beaches, A bustling beach destination with vibrant markets and shacks.\n4) Dudhsagar Falls\nHighlight: Stunning Waterfalls, A spectacular four-tiered waterfall amidst lush forests.\n5) Old Goa\nHighlight: Historical Churches, Known for the architectural marvels like Se Cathedral and Church of St. Francis of Assisi.\n\nContinue Looking For More Places. HAPPY HOPING!!"
+        ]
+    },
+    {
+        "tag": "Gujarat",
+        "patterns": [
+            "Suggest some famous places to visit in Gujarat",
+            "Recommend most famous places to visit in Gujarat",
+            "Famous places to visit in Gujarat",
+            "Most Famous tourists attraction of Gujarat"
+        ],
+        "responses": [
+            "Gujarat, known for its historical landmarks, cultural heritage, and wildlife sanctuaries, offers a variety of attractions. Here are the most famous places to visit in Gujarat:\n\n1) Gir National Park\nHighlight: Asiatic Lions, The only place in the world to see Asiatic lions in their natural habitat.\n2) Ahmedabad\nHighlight: Sabarmati Ashram and Adalaj Stepwell, A city blending rich heritage with modernity.\n3) Rann of Kutch\nHighlight: White Desert, A vast expanse of white salt desert, especially stunning during the Rann Utsav.\n4) Somnath\nHighlight: Somnath Temple, One of the twelve Jyotirlinga shrines of Lord Shiva.\n5) Dwarka\nHighlight: Dwarkadhish Temple, A major pilgrimage site and one of the Char Dham.\n\nContinue Looking For More Places. HAPPY HOPING!!"
+        ]
+    },
+    {
+        "tag": "Haryana",
+        "patterns": [
+            "Suggest some famous places to visit in Haryana",
+            "Recommend most famous places to visit in Haryana",
+            "Famous places to visit in Haryana",
+            "Most Famous tourists attraction of Haryana"
+        ],
+        "responses": [
+            "Haryana, known for its historical significance, rural tourism, and cultural festivals, offers a blend of attractions. Here are the most famous places to visit in Haryana:\n\n1) Kurukshetra\nHighlight: Land of Mahabharata, Famous for its historical and spiritual significance. Key sites include Jyotisar and Brahma Sarovar.\n2) Sultanpur Bird Sanctuary\nHighlight: Birdwatching, A paradise for migratory and resident birds.\n3) Pinjore Gardens\nHighlight: Mughal Architecture, Beautifully landscaped gardens ideal for picnics and outings.\n4) Morni Hills\nHighlight: Hill Station, The only hill station in Haryana offering scenic beauty and trekking opportunities.\n5) Panipat\nHighlight: Historical Landmarks, Renowned for its role in major battles in Indian history. Key attractions include the Panipat Museum.\n\nContinue Looking For More Places. HAPPY HOPING!!"
+        ]
+    },
+    {
+        "tag": "Himachal Pradesh",
+        "patterns": [
+            "Suggest some famous places to visit in Himachal Pradesh",
+            "Recommend most famous places to visit in Himachal Pradesh",
+            "Famous places to visit in Himachal Pradesh",
+            "Most Famous tourists attraction of Himachal Pradesh"
+        ],
+        "responses": [
+            "Himachal Pradesh, known for its picturesque landscapes, serene valleys, and spiritual sites, is a paradise for nature lovers. Here are the most famous places to visit in Himachal Pradesh:\n\n1) Manali\nHighlight: Solang Valley and Rohtang Pass, Known for its breathtaking views and adventure activities.\n2) Shimla\nHighlight: Mall Road and Ridge, A charming hill station with colonial architecture.\n3) Dharamshala\nHighlight: Dalai Lama Temple Complex, A spiritual center and home to Tibetan culture.\n4) Spiti Valley\nHighlight: Remote Valleys and Monasteries, Ideal for adventure seekers and solitude lovers.\n5) Kasol\nHighlight: Parvati Valley, A favorite spot for trekking and exploring Israeli culture.\n\nContinue Looking For More Places. HAPPY HOPING!!"
+        ]
+    },
+    {
+        "tag": "Jammu & Kashmir",
+        "patterns": [
+            "Suggest some famous places to visit in Jammu & Kashmir",
+            "Recommend most famous places to visit in Jammu & Kashmir",
+            "Famous places to visit in Jammu & Kashmir",
+            "Most Famous tourists attraction of Jammu & Kashmir"
+        ],
+        "responses": [
+            "Jammu & Kashmir, often referred to as 'Paradise on Earth,' is known for its snow-capped mountains, serene lakes, and Mughal gardens. Here are the most famous places to visit in Jammu & Kashmir:\n\n1) Srinagar\nHighlight: Dal Lake and Mughal Gardens, Experience houseboat stays and beautifully manicured gardens.\n2) Gulmarg\nHighlight: Skiing and Gulmarg Gondola, A premier destination for skiing and stunning mountain views.\n3) Pahalgam\nHighlight: Lidder River and Valley Views, Known for its lush meadows and trekking opportunities.\n4) Jammu\nHighlight: Vaishno Devi Temple, A major pilgrimage site attracting devotees year-round.\n5) Leh-Ladakh\nHighlight: Pangong Lake and Monasteries, Famous for rugged landscapes and vibrant Tibetan culture.\n\nContinue Looking For More Places. HAPPY HOPING!!"
+        ]
+    },
+    {
+        "tag": "Jharkhand",
+        "patterns": [
+            "Suggest some famous places to visit in Jharkhand",
+            "Recommend most famous places to visit in Jharkhand",
+            "Famous places to visit in Jharkhand",
+            "Most Famous tourists attraction of Jharkhand"
+        ],
+        "responses": [
+            "Jharkhand, known as the Land of Forests, is rich in natural beauty, waterfalls, and temples. Here are the most famous places to visit in Jharkhand:\n\n1) Ranchi\nHighlight: Dassam Falls and Rock Garden, Known for its scenic beauty and tranquil spots.\n2) Jamshedpur\nHighlight: Jubilee Park and Dimna Lake, A well-planned industrial city with beautiful parks and a serene lake.\n3) Deoghar\nHighlight: Baba Baidyanath Temple, One of the twelve Jyotirlingas dedicated to Lord Shiva.\n4) Netarhat\nHighlight: Sunrise and Sunset Points, A hill station offering spectacular views and lush greenery.\n5) Palamu\nHighlight: Betla National Park, A haven for wildlife enthusiasts and nature lovers.\n\nContinue Looking For More Places. HAPPY HOPING!!"
+        ]
+    },
+    {
+        "tag": "Karnataka",
+        "patterns": [
+            "Suggest some famous places to visit in Karnataka",
+            "Recommend most famous places to visit in Karnataka",
+            "Famous places to visit in Karnataka",
+            "Most Famous tourists attraction of Karnataka"
+        ],
+        "responses": [
+            "Karnataka, known for its rich history, architecture, and natural beauty, offers a diverse range of attractions. Here are the most famous places to visit in Karnataka:\n\n1) Bengaluru\nHighlight: Lalbagh and Cubbon Park, Known as the Garden City of India with vibrant urban culture.\n2) Mysuru\nHighlight: Mysore Palace, A stunning example of Indo-Saracenic architecture and rich heritage.\n3) Hampi\nHighlight: Ruins of Vijayanagara Empire, A UNESCO World Heritage site with ancient temples and monuments.\n4) Coorg\nHighlight: Coffee Plantations and Abbey Falls, A picturesque hill station with lush greenery.\n5) Gokarna\nHighlight: Beaches and Mahabaleshwar Temple, A serene destination for both pilgrims and beach lovers.\n\nContinue Looking For More Places. HAPPY HOPING!!"
+        ]
+    },
+    {
+        "tag": "Kerala",
+        "patterns": [
+            "Suggest some famous places to visit in Kerala",
+            "Recommend most famous places to visit in Kerala",
+            "Famous places to visit in Kerala",
+            "Most Famous tourists attraction of Kerala"
+        ],
+        "responses": [
+            "Kerala, often referred to as 'God's Own Country,' is renowned for its serene backwaters, lush greenery, and rich cultural heritage. Here are the most famous places to visit in Kerala:\n\n1) Alleppey (Alappuzha)\nHighlight: Backwaters and Houseboats, Known for its iconic houseboat cruises on tranquil backwaters.\n2) Munnar\nHighlight: Tea Plantations and Eravikulam National Park, A picturesque hill station with sprawling tea gardens and rare flora and fauna.\n3) Kochi (Cochin)\nHighlight: Fort Kochi and Chinese Fishing Nets, A historic port city blending colonial heritage with modernity.\n4) Wayanad\nHighlight: Edakkal Caves and Banasura Sagar Dam, Offers lush landscapes, trekking trails, and ancient caves with rock carvings.\n5) Thekkady\nHighlight: Periyar Wildlife Sanctuary, A prime location for spotting wildlife and enjoying bamboo rafting.\n6) Kovalam\nHighlight: Kovalam Beach, Famous for its crescent-shaped beaches and vibrant atmosphere.\n\nContinue Looking For More Places. HAPPY HOPING!!"
+        ]
+    },
+    {
+        "tag": "Madhya_Pradesh",
+        "patterns": [
+            "Suggest some famous places to visit in Madhya Pradesh",
+            "Recommend most famous places to visit in Madhya Pradesh",
+            "Famous places to visit in Madhya Pradesh",
+            "Most Famous tourist attractions of Madhya Pradesh"
+        ],
+        "responses": [
+            "Madhya Pradesh, known as the 'Heart of India,' is home to a rich cultural heritage and diverse landscapes. Here are the most famous places to visit in Madhya Pradesh:\n\n1) Khajuraho Temples: UNESCO World Heritage site known for exquisite sculptures.\n2) Bandhavgarh National Park: A famous tiger reserve with abundant wildlife.\n3) Sanchi Stupa: A renowned Buddhist site showcasing ancient architecture.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    },
+    {
+        "tag": "Maharashtra",
+        "patterns": [
+            "Suggest some famous places to visit in Maharashtra",
+            "Recommend most famous places to visit in Maharashtra",
+            "Famous places to visit in Maharashtra",
+            "Most Famous tourist attractions of Maharashtra"
+        ],
+        "responses": [
+            "Maharashtra, a state blending urban vibrancy and historical marvels, offers a diverse range of attractions. Here are the most famous places to visit in Maharashtra:\n\n1) Mumbai: Gateway of India and Marine Drive, showcasing vibrant city life.\n2) Ajanta and Ellora Caves: Ancient rock-cut caves and UNESCO World Heritage sites.\n3) Mahabaleshwar: A scenic hill station with breathtaking viewpoints.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    },
+    {
+        "tag": "Manipur",
+        "patterns": [
+            "Suggest some famous places to visit in Manipur",
+            "Recommend most famous places to visit in Manipur",
+            "Famous places to visit in Manipur",
+            "Most Famous tourist attractions of Manipur"
+        ],
+        "responses": [
+            "Manipur, often called the 'Jewel of India,' is renowned for its natural beauty and cultural richness. Here are the most famous places to visit in Manipur:\n\n1) Loktak Lake: The largest freshwater lake in Northeast India with floating phumdis.\n2) Keibul Lamjao National Park: The world's only floating national park.\n3) Kangla Fort: A historic and cultural site in Imphal.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    },
+    {
+        "tag": "Meghalaya",
+        "patterns": [
+            "Suggest some famous places to visit in Meghalaya",
+            "Recommend most famous places to visit in Meghalaya",
+            "Famous places to visit in Meghalaya",
+            "Most Famous tourist attractions of Meghalaya"
+        ],
+        "responses": [
+            "Meghalaya, the 'Abode of Clouds,' is famed for its natural beauty and unique culture. Here are the most famous places to visit in Meghalaya:\n\n1) Cherrapunji: Known for living root bridges and heavy rainfall.\n2) Shillong: A picturesque hill station often called the 'Scotland of the East.'\n3) Mawlynnong: Asia's cleanest village with scenic beauty.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    },
+    {
+        "tag": "Mizoram",
+        "patterns": [
+            "Suggest some famous places to visit in Mizoram",
+            "Recommend most famous places to visit in Mizoram",
+            "Famous places to visit in Mizoram",
+            "Most Famous tourist attractions of Mizoram"
+        ],
+        "responses": [
+            "Mizoram, a serene state in Northeast India, is known for its lush landscapes and vibrant culture. Here are the most famous places to visit in Mizoram:\n\n1) Aizawl: The capital city, known for serene landscapes and cultural sites.\n2) Vantawng Falls: The highest waterfall in Mizoram with stunning views.\n3) Phawngpui National Park: Famous for breathtaking landscapes and rare flora and fauna.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    },
+    {
+        "tag": "Odisha",
+        "patterns": [
+            "Suggest some famous places to visit in Odisha",
+            "Recommend most famous places to visit in Odisha",
+            "Famous places to visit in Odisha",
+            "Most Famous tourist attractions of Odisha"
+        ],
+        "responses": [
+            "Odisha, a state rich in heritage and natural beauty, offers many iconic attractions. Here are the most famous places to visit in Odisha:\n\n1) Konark Sun Temple: A UNESCO World Heritage site and architectural wonder.\n2) Puri: Famous for Jagannath Temple and its golden beaches.\n3) Chilika Lake: Asia's largest brackish water lagoon, ideal for bird watching.\n4) Bhitarkanika National Park: Known for mangroves and rare species like saltwater crocodiles.\n5) Udayagiri and Khandagiri Caves: Ancient Jain caves with historical significance.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    },
+    {
+        "tag": "Puducherry",
+        "patterns": [
+            "Suggest some famous places to visit in Puducherry",
+            "Recommend most famous places to visit in Puducherry",
+            "Famous places to visit in Puducherry",
+            "Most Famous tourist attractions of Puducherry"
+        ],
+        "responses": [
+            "Puducherry, a quaint Union Territory with French colonial charm, offers several fascinating attractions. Here are the most famous places to visit in Puducherry:\n\n1) Promenade Beach: A serene beach perfect for relaxation.\n2) Auroville: An international township promoting sustainable living.\n3) Sri Aurobindo Ashram: A spiritual retreat and meditation center.\n4) Paradise Beach: A picturesque spot with golden sands and calm waters.\n5) French Quarter: Known for its vibrant streets and colonial architecture.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    },
+    {
+        "tag": "Punjab",
+        "patterns": [
+            "Suggest some famous places to visit in Punjab",
+            "Recommend most famous places to visit in Punjab",
+            "Famous places to visit in Punjab",
+            "Most Famous tourist attractions of Punjab"
+        ],
+        "responses": [
+            "Punjab, the 'Land of Five Rivers,' is known for its vibrant culture and historic landmarks. Here are the most famous places to visit in Punjab:\n\n1) Golden Temple, Amritsar: A spiritual and architectural marvel.\n2) Wagah Border: Famous for the daily flag-lowering ceremony.\n3) Jallianwala Bagh: A historic site reflecting India's freedom struggle.\n4) Anandpur Sahib: A prominent Sikh pilgrimage site.\n5) Qila Mubarak, Patiala: A grand fort with stunning architecture and history.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    },
+    {
+        "tag": "Rajasthan",
+        "patterns": [
+            "Suggest some famous places to visit in Rajasthan",
+            "Recommend most famous places to visit in Rajasthan",
+            "Famous places to visit in Rajasthan",
+            "Most Famous tourist attractions of Rajasthan"
+        ],
+        "responses": [
+            "Rajasthan, the 'Land of Kings,' is renowned for its royal heritage and deserts. Here are the most famous places to visit in Rajasthan:\n\n1) Jaipur: The Pink City, home to Amber Fort and Hawa Mahal.\n2) Udaipur: Known as the City of Lakes, famous for City Palace and Lake Pichola.\n3) Jodhpur: The Blue City, featuring the majestic Mehrangarh Fort.\n4) Jaisalmer: The Golden City, renowned for its sand dunes and Jaisalmer Fort.\n5) Ranthambore National Park: A popular tiger reserve and wildlife sanctuary.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    },
+    {
+        "tag": "Sikkim",
+        "patterns": [
+            "Suggest some famous places to visit in Sikkim",
+            "Recommend most famous places to visit in Sikkim",
+            "Famous places to visit in Sikkim",
+            "Most Famous tourist attractions of Sikkim"
+        ],
+        "responses": [
+            "Sikkim, nestled in the Himalayas, is known for its stunning natural beauty and spiritual sites. Here are the most famous places to visit in Sikkim:\n\n1) Gangtok: The capital city with breathtaking views of Mount Kanchenjunga.\n2) Tsomgo Lake: A glacial lake surrounded by snow-capped mountains.\n3) Nathula Pass: A historic trade route with scenic landscapes.\n4) Yumthang Valley: Known as the Valley of Flowers, a paradise for nature lovers.\n5) Rumtek Monastery: A significant Tibetan Buddhist monastery with stunning architecture.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    },
+    {
+        "tag": "Tamil_Nadu",
+        "patterns": [
+            "Suggest some famous places to visit in Tamil Nadu",
+            "Recommend most famous places to visit in Tamil Nadu",
+            "Famous places to visit in Tamil Nadu",
+            "Most Famous tourist attractions of Tamil Nadu"
+        ],
+        "responses": [
+            "Tamil Nadu, known for its rich heritage and stunning temples, offers many iconic attractions. Here are the most famous places to visit in Tamil Nadu:\n\n1) Meenakshi Temple, Madurai: A magnificent temple known for its intricate carvings.\n2) Marina Beach, Chennai: One of the longest beaches in the world.\n3) Ooty: A popular hill station with picturesque landscapes and tea gardens.\n4) Mahabalipuram: A UNESCO World Heritage site famous for rock-cut temples.\n5) Kanyakumari: The southernmost tip of India, known for Vivekananda Rock Memorial.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    },
+    {
+        "tag": "Telangana",
+        "patterns": [
+            "Suggest some famous places to visit in Telangana",
+            "Recommend most famous places to visit in Telangana",
+            "Famous places to visit in Telangana",
+            "Most Famous tourist attractions of Telangana"
+        ],
+        "responses": [
+            "Telangana, a state known for its rich heritage and vibrant culture, offers various attractions. Here are the most famous places to visit in Telangana:\n\n1) Charminar, Hyderabad: The iconic landmark of the city.\n2) Golconda Fort: A historic fort known for its architectural brilliance.\n3) Ramoji Film City: The world’s largest film studio complex.\n4) Hussain Sagar Lake: A picturesque lake with a giant Buddha statue.\n5) Warangal Fort: A heritage site showcasing Kakatiya architecture.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    },
+    {
+        "tag": "Tripura",
+        "patterns": [
+            "Suggest some famous places to visit in Tripura",
+            "Recommend most famous places to visit in Tripura",
+            "Famous places to visit in Tripura",
+            "Most Famous tourist attractions of Tripura"
+        ],
+        "responses": [
+            "Tripura, a state rich in cultural heritage and natural beauty, offers several attractions. Here are the most famous places to visit in Tripura:\n\n1) Ujjayanta Palace, Agartala: A royal palace and museum.\n2) Neermahal: A water palace located in the middle of Rudrasagar Lake.\n3) Sepahijala Wildlife Sanctuary: Known for its biodiversity and clouded leopards.\n4) Unakoti: Rock carvings and sculptures dating back to ancient times.\n5) Jampui Hills: A serene hill range offering stunning views and orange orchards.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    },
+    {
+        "tag": "Uttarakhand",
+        "patterns": [
+            "Suggest some famous places to visit in Uttarakhand",
+            "Recommend most famous places to visit in Uttarakhand",
+            "Famous places to visit in Uttarakhand",
+            "Most Famous tourist attractions of Uttarakhand"
+        ],
+        "responses": [
+            "Uttarakhand, the 'Land of Gods,' is known for its spiritual sites and scenic beauty. Here are the most famous places to visit in Uttarakhand:\n\n1) Rishikesh: Known as the Yoga Capital of the World.\n2) Nainital: A picturesque hill station centered around Naini Lake.\n3) Kedarnath: A sacred pilgrimage site and one of the Char Dhams.\n4) Valley of Flowers: A UNESCO World Heritage site with stunning alpine meadows.\n5) Jim Corbett National Park: India’s oldest national park, known for its tiger population.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    },
+    {
+        "tag": "Uttar_Pradesh",
+        "patterns": [
+            "Suggest some famous places to visit in Uttar Pradesh",
+            "Recommend most famous places to visit in Uttar Pradesh",
+            "Famous places to visit in Uttar Pradesh",
+            "Most Famous tourist attractions of Uttar Pradesh"
+        ],
+        "responses": [
+            "Uttar Pradesh, a state with rich history and culture, offers several iconic attractions. Here are the most famous places to visit in Uttar Pradesh:\n\n1) Taj Mahal, Agra: A UNESCO World Heritage site and one of the Seven Wonders of the World.\n2) Varanasi: Known for its ghats and spiritual ambiance.\n3) Fatehpur Sikri: A historic city and UNESCO World Heritage site.\n4) Mathura: The birthplace of Lord Krishna and a major pilgrimage site.\n5) Lucknow: The City of Nawabs, famous for Bara Imambara and delicious cuisine.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    },
+    {
+        "tag": "West_Bengal",
+        "patterns": [
+            "Suggest some famous places to visit in West Bengal",
+            "Recommend most famous places to visit in West Bengal",
+            "Famous places to visit in West Bengal",
+            "Most Famous tourist attractions of West Bengal"
+        ],
+        "responses": [
+            "West Bengal, a state rich in cultural heritage and natural beauty, offers several iconic attractions. Here are the most famous places to visit in West Bengal:\n\n1) Kolkata: The cultural capital, known for Victoria Memorial and Howrah Bridge.\n2) Darjeeling: A picturesque hill station famous for tea gardens and the toy train.\n3) Sundarbans: A UNESCO World Heritage site and home to the Bengal Tiger.\n4) Shantiniketan: Founded by Rabindranath Tagore, known for its cultural significance.\n5) Kalimpong: A serene hill station with stunning views and monasteries.\n\nContinue Looking For More Places. HAPPY HOPPING!!"
+        ]
+    }      
+]
